@@ -33,7 +33,6 @@ app.use(
   })
 );
 
-<<<<<<< HEAD
 if (process.env.NODE_ENV === "production") {
   const __dirname = path.resolve("../");
   app.use(express.static(path.join(__dirname + "/frontend/build")));
@@ -50,17 +49,6 @@ if (process.env.NODE_ENV === "production") {
     );
   });
 }
-=======
-
-  app.get("/", (req, res) => {
-    res.send("server is ready");
-  });
-  app.use("/admin", AdminRoutes);
-  app.use("/user", UserRoutes);
-  app.use(notFound);
-  app.use(errorHandler);
-
->>>>>>> bb3fdb84279a87322b14edcef72aad09337b38cc
 
 connectDB();
 mongoose.set("strictQuery", false);
