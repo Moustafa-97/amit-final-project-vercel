@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.imgCover{
+  background-image: url(./Pages//MainPages/components/Hero/img/httpsi.ibb.cob2HGV9Zbg.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  /* background: #000; */
+}

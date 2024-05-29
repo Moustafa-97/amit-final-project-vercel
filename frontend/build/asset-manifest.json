@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ad7e0b7.css",
+    "main.js": "/static/js/main.c7d96270.js",
+    "static/media/httpsi.ibb.cob2HGV9Zbg.png": "/static/media/httpsi.ibb.cob2HGV9Zbg.254f3a4aa867cceee06f.png",
+    "static/media/image 111.png": "/static/media/image 111.ae88e00a3ba53fd8e0d6.png",
+    "static/media/mid-shot-chef-holding-plate-with-pasta-making-ok-sign 1.png": "/static/media/mid-shot-chef-holding-plate-with-pasta-making-ok-sign 1.1ffe34729a6030f4e357.png",
+    "static/media/sour-curry-with-snakehead-fish-spicy-garden-hot-pot-thai-food 1.png": "/static/media/sour-curry-with-snakehead-fish-spicy-garden-hot-pot-thai-food 1.dd123a3e73be53df7c6a.png",
+    "static/media/sadj-iron-pot-with-various-salads 1.png": "/static/media/sadj-iron-pot-with-various-salads 1.377702d26707addd9909.png",
+    "static/media/Mask group-2.png": "/static/media/Mask group-2.96f718b5e2f51cd8f57d.png",
+    "static/media/Mask group-3.png": "/static/media/Mask group-3.91313d65bb37f0a1704e.png",
+    "static/media/Mask group-1.png": "/static/media/Mask group-1.7d94d89dbe06324eee48.png",
+    "static/media/Mask group.png": "/static/media/Mask group.7511f7908b3443805348.png",
+    "index.html": "/index.html",
+    "main.7ad7e0b7.css.map": "/static/css/main.7ad7e0b7.css.map",
+    "main.c7d96270.js.map": "/static/js/main.c7d96270.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ad7e0b7.css",
+    "static/js/main.c7d96270.js"
+  ]
+}
