@@ -26,7 +26,7 @@ export default function Login() {
     });
   };
 
-  const userState = useSelector((state: object | any) => state.Login.user);
+  const userState = useSelector((state: object | any) => state?.Login?.user);
 
   const handleSubmit = async (
     e: React.FormEvent<HTMLFormElement>
@@ -56,7 +56,7 @@ export default function Login() {
     }
   };
   useEffect(() => {
-    if (userState.state) {
+    if (userState?.state) {
       setTimeout(() => {
         navigate("/", { replace: true });
       }, 2000);
