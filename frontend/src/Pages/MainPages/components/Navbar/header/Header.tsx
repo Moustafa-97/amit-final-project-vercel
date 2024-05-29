@@ -210,7 +210,7 @@ export default function Header() {
           <WhiteBtnMenu
             name="book a table"
             class="hover:bg-[#DBDFD04e]"
-            state={userState.state}
+            state={userState?.state}
           />
         </div>
       </div>
