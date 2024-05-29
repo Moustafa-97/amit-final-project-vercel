@@ -33,23 +33,13 @@ app.use(
   })
 );
 
-if (process.env.NODE_ENV === "production") {
-  app.use("/admin", AdminRoutes);
-  app.use("/user", UserRoutes);
-  app.get("/", (req, res) => {
-    res.send("server is ready");
-  });
-  app.use(notFound);
-  app.use(errorHandler);
-} else {
-  app.use("/admin", AdminRoutes);
-  app.use("/user", UserRoutes);
-  app.get("/", (req, res) => {
-    res.send("server is ready");
-  });
-  app.use(notFound);
-  app.use(errorHandler);
-}
+app.get("/", (req, res) => {
+  res.send("server is ready");
+});
+app.use("/admin", AdminRoutes);
+app.use("/user", UserRoutes);
+app.use(notFound);
+app.use(errorHandler);
 
 connectDB();
 mongoose.set("strictQuery", false);
