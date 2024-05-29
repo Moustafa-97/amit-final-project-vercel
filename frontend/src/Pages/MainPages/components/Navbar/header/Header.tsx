@@ -22,7 +22,7 @@ export default function Header() {
       : ["Home", "About", "Menu", "Profile"];
 
   const handleBook = (e: any) => {
-    userState.state
+    userState?.state
       ? axios
           .post(
             `${process.env.REACT_APP_SERVER_DOMAIN}/${userState?.user?.account}/logout`
