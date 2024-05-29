@@ -1,6 +1,10 @@
 {
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/build",
+  "public": true,
+  "redirects": [
+    { "source": "/frontend/build", "destination": "/index.html", "permanent": false }
+  ],
   "rewrites": [
     {
       "source": "/backend/(.*)",
